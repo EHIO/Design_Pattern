@@ -1,4 +1,4 @@
-package behavior.strategy.fly;
+package behavior.strategy.example.fly;
 
 /**
  * 飞行行为接口

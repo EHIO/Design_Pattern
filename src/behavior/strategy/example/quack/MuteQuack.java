@@ -1,4 +1,4 @@
-package behavior.strategy.quack;
+package behavior.strategy.example.quack;
 
 /**
  * 这是叫行为的实现，给不会叫的鸭子用

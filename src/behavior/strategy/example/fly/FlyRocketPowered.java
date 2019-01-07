@@ -1,4 +1,4 @@
-package behavior.strategy.fly;
+package behavior.strategy.example.fly;
 
 /**
  * 利用火箭动力的飞行行为

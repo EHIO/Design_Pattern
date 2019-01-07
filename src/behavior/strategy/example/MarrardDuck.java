@@ -1,7 +1,7 @@
-package behavior.strategy;
+package behavior.strategy.example;
 
-import behavior.strategy.fly.FlyWithWings;
-import behavior.strategy.quack.Quack;
+import behavior.strategy.example.fly.FlyWithWings;
+import behavior.strategy.example.quack.Quack;
 
 /**
  * 绿头鸭

@@ -1,4 +1,4 @@
-package behavior.strategy.quack;
+package behavior.strategy.example.quack;
 
 /**
  * 叫的行为

@@ -1,4 +1,4 @@
-package behavior.strategy.fly;
+package behavior.strategy.example.fly;
 
 /**
  * 这是飞行行为的实现，给“真会飞的鸭子用”

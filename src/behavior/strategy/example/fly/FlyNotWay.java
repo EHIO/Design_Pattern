@@ -1,4 +1,4 @@
-package behavior.strategy.fly;
+package behavior.strategy.example.fly;
 
 /**
  * 不会飞， 给不会飞的鸭子使用

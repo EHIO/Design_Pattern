@@ -1,7 +1,7 @@
 package creational.singleton;
 
 /**
- * 饿汉式
+ * 提前初始化，也被称为饿汉式
  *
  * @author wg
  */

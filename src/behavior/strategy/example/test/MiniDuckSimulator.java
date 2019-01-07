@@ -1,9 +1,9 @@
-package behavior.strategy.test;
+package behavior.strategy.example.test;
 
-import behavior.strategy.Duck;
-import behavior.strategy.MarrardDuck;
-import behavior.strategy.ModelDuck;
-import behavior.strategy.fly.FlyRocketPowered;
+import behavior.strategy.example.Duck;
+import behavior.strategy.example.MarrardDuck;
+import behavior.strategy.example.ModelDuck;
+import behavior.strategy.example.fly.FlyRocketPowered;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) throws InterruptedException {
