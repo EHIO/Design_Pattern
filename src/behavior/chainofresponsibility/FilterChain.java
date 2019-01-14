@@ -1,9 +1,5 @@
-package behavior.chainofresponsibility.impl;
+package behavior.chainofresponsibility;
 
-
-import behavior.chainofresponsibility.Filter;
-import behavior.chainofresponsibility.Request;
-import behavior.chainofresponsibility.Response;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +7,7 @@ import java.util.List;
 /**
  * 过滤链
  *
- * @author Administrator
+ * @author wg
  */
 public class FilterChain implements Filter {
 
@@ -26,6 +22,7 @@ public class FilterChain implements Filter {
 
     @Override
     public void doFilter(Request request, Response response, FilterChain chain) {
+        System.out.println("进入FilterChain");
         if (index == filters.size()) {
             return;
         }

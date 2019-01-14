@@ -1,19 +1,15 @@
-package behavior.chainofresponsibility.impl;
+package behavior.chainofresponsibility;
 
-
-import behavior.chainofresponsibility.Filter;
-import behavior.chainofresponsibility.Request;
-import behavior.chainofresponsibility.Response;
 
 public class HTMLFilter implements Filter {
 
-
     @Override
     public void doFilter(Request request, Response response, FilterChain chain) {
+        System.out.println("进入HTMLFilter");
         request.setRequestStr(request.getRequestStr().replace("<", "[").replace(">", "]"));
-        request.requestStr += "-----HTMLFilter";
+        request.requestStr += "---HTMLFilter";
         chain.doFilter(request, response, chain);
-        response.responseStr += "-----HTMLFilter";
+        response.responseStr += "---HTMLFilter";
+        System.out.println("退出HTMLFilter");
     }
-
 }

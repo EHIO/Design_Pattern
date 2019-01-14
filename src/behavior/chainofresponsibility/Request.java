@@ -1,8 +1,9 @@
 package behavior.chainofresponsibility;
 
 /**
- *  请求对象
- *  @author run
+ * 请求对象
+ *
+ * @author run
  */
 public class Request {
     public String requestStr;

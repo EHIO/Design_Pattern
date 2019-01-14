@@ -1,13 +1,9 @@
 package behavior.chainofresponsibility;
 
 
-import behavior.chainofresponsibility.impl.FilterChain;
-import behavior.chainofresponsibility.impl.HTMLFilter;
-import behavior.chainofresponsibility.impl.SesitiveFilter;
-
 public class Main {
     public static void main(String[] args) {
-        String msg = "大家好:)，<script>，敏感，潜规则，网络授课没感觉，因为看不见大家伙儿";
+        String msg = "<script>，潜规则";
         Request request = new Request();
         request.setRequestStr(msg);
         Response response = new Response();
@@ -20,6 +16,4 @@ public class Main {
         System.out.println(request.getRequestStr());
         System.out.println(response.getResponseStr());
     }
-
-
 }
