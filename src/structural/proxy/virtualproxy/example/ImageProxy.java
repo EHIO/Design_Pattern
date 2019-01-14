@@ -1,4 +1,4 @@
-package structural.proxy.virtualproxy;
+package structural.proxy.virtualproxy.example;
 
 import javax.swing.*;
 import java.awt.*;

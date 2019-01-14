@@ -1,6 +1,7 @@
-package structural.proxy.virtualproxy;
+package structural.proxy.virtualproxy.example2;
 
 /**
+ * 代理对象
  * Created by run on 2017/12/11.
  */
 public class ShowProxy implements Show {
