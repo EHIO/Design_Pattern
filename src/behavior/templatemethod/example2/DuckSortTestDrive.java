@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 模板方法的变体
- * Arrays.example2()
+ * Arrays.sort()
  */
 public class DuckSortTestDrive {
 

@@ -1,5 +1,8 @@
 package behavior.templatemethod.example.v2;
 
+/**
+ * 钩子方法版
+ */
 public abstract class CaffeineBeverageWithHook {
 
     final void prepareRecipe() {

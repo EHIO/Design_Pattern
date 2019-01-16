@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * 钩子方法版
+ */
 public class TeaWithHook extends CaffeineBeverageWithHook {
 
     @Override

@@ -13,6 +13,7 @@ public class BeverageTestDrive {
         coffee.prepareRecipe();
 
 
+        // 带有钩子方法的版本
         TeaWithHook teaHook = new TeaWithHook();
         CoffeeWithHook coffeeHook = new CoffeeWithHook();
 
