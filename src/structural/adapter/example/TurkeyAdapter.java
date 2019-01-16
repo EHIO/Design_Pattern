@@ -2,9 +2,9 @@ package structural.adapter.example;
 
 /**
  * 适配器，实现了目标接口
- * (对象适配器)
  */
 public class TurkeyAdapter implements Duck {
+
     Turkey turkey;
 
     public TurkeyAdapter(Turkey turkey) {
@@ -22,5 +22,4 @@ public class TurkeyAdapter implements Duck {
             turkey.fly();
         }
     }
-
 }

@@ -1,7 +1,7 @@
 package structural.adapter.example;
 
 /**
- * 具体的火鸡
+ * 野火鸡，具体的被适配者
  *
  * @author gang.wang
  */
