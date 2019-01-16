@@ -3,12 +3,13 @@ package structural.adapter.iterenum;
 import java.util.*;
 
 /**
- * 枚举适配器
+ * 将枚举适配成迭代器
  *
  * @param <E>
- * @author wang.gang
+ * @author gang.wang
  */
 public class EnumerationIterator<E> implements Iterator<E> {
+    // 被适配者
     Enumeration<E> enumeration;
 
     public EnumerationIterator(Enumeration<E> enumeration) {
@@ -34,13 +35,12 @@ public class EnumerationIterator<E> implements Iterator<E> {
 
 
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-        list.add("东邪");
-        list.add("西毒");
-        list.add("南帝");
-        list.add("北丐");
-        Vector v = new Vector(list);
-        Iterator iterator = new EnumerationIterator(v.elements());
+        Vector<String> v = new Vector<>();
+        v.add("东邪");
+        v.add("西毒");
+        v.add("南帝");
+        v.add("北丐");
+        Iterator<String> iterator = new EnumerationIterator<>(v.elements());
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }

@@ -6,10 +6,10 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * 迭代器适配器
+ * 将迭代器适配成枚举
  */
 public class IteratorEnumeration<E> implements Enumeration<E> {
-
+    // 被适配者
     Iterator<E> iterator;
 
     public IteratorEnumeration(Iterator<E> iterator) {
@@ -32,7 +32,7 @@ public class IteratorEnumeration<E> implements Enumeration<E> {
         list.add("西毒");
         list.add("南帝");
         list.add("北丐");
-        Enumeration enumeration = new IteratorEnumeration(list.iterator());
+        Enumeration<String> enumeration = new IteratorEnumeration<>(list.iterator());
         while (enumeration.hasMoreElements()) {
             System.out.println(enumeration.nextElement());
         }
