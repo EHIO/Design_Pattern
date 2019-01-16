@@ -1,12 +1,7 @@
-package behavior.chainofresponsibility;
+package behavior.chainofresponsibility.example2;
 
-/**
- * 响应对象
- *
- * @author run
- */
 public class Response {
-    public String responseStr;
+    String responseStr;
 
     public String getResponseStr() {
         return responseStr;
@@ -15,4 +10,5 @@ public class Response {
     public void setResponseStr(String responseStr) {
         this.responseStr = responseStr;
     }
-}	
+
+}

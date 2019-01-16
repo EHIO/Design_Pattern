@@ -1,4 +1,4 @@
-package behavior.iterator.example_v1;
+package behavior.iterator.example.v1;
 
 public class MenuTestDrive {
     public static void main(String[] args) {

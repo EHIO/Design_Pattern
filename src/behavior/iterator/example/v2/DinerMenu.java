@@ -1,4 +1,4 @@
-package behavior.iterator.example_v2;
+package behavior.iterator.example.v2;
 
 /**
  * 餐厅菜单

@@ -1,4 +1,4 @@
-package behavior.chainofresponsibility;
+package behavior.chainofresponsibility.example;
 
 /**
  * 请求对象

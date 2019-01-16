@@ -5,7 +5,7 @@ import java.io.*;
 public class CoffeeWithHook extends CaffeineBeverageWithHook {
  
 	public void brew() {
-		System.out.println("Dripping Coffee through filter");
+		System.out.println("Dripping Coffee through example2");
 	}
  
 	public void addCondiments() {

@@ -1,4 +1,4 @@
-package behavior.iterator.example_v1;
+package behavior.iterator.example.v2;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ import java.util.ArrayList;
  *
  * @author run
  */
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu {
     ArrayList<MenuItem> menuItems;
 
     public PancakeHouseMenu() {
@@ -27,8 +27,8 @@ public class PancakeHouseMenu {
         menuItems.add(menuItem);
     }
 
-    public ArrayList<MenuItem> getMenuItems() {
-        return menuItems;
+    public Iterator createIterator() {
+        return new PancakeHouseIterator(menuItems);
     }
 
     // other menu methods here
