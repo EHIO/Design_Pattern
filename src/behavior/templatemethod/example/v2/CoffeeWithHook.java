@@ -1,4 +1,4 @@
-package behavior.templatemethod.barista;
+package behavior.templatemethod.example.v2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

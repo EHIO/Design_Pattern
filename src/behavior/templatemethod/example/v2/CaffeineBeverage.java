@@ -1,14 +1,17 @@
-package behavior.templatemethod.barista;
+package behavior.templatemethod.example.v2;
 
-public abstract class CaffeineBeverageWithHook {
+/**
+ * 咖啡因的饮料
+ *
+ * @author wg
+ */
+public abstract class CaffeineBeverage {
 
     final void prepareRecipe() {
         boilWater();
         brew();
         pourInCup();
-        if (customerWantsCondiments()) {
-            addCondiments();
-        }
+        addCondiments();
     }
 
     /**
@@ -27,14 +30,5 @@ public abstract class CaffeineBeverageWithHook {
 
     void pourInCup() {
         System.out.println("倒入杯中");
-    }
-
-    /**
-     * 钩子方法
-     *
-     * @return
-     */
-    boolean customerWantsCondiments() {
-        return true;
     }
 }
