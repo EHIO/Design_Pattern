@@ -9,7 +9,6 @@ public class IPhoneStore {
     }
 
     public IPhone order(String type) {
-        IPhone iPhone = simpleFactory.create(type);
-        return iPhone;
+        return simpleFactory.create(type);
     }
 }

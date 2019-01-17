@@ -16,10 +16,6 @@ public class SimplePizzaFactory {
         Pizza pizza = null;
         if ("cheese".equals(type)) {
             pizza = new CheesePizza();
-        } else if ("pepperoniPizza".equals(type)) {
-            pizza = new PepperoniPizza();
-        } else if ("clam".equals(type)) {
-            pizza = new ClamPizza();
         } else if ("veggie".equals(type)) {
             pizza = new VeggiePizza();
         }
