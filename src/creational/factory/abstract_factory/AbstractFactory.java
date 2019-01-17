@@ -1,4 +1,4 @@
-package creational.factory.abstract_factory.example2;
+package creational.factory.abstract_factory;
 
 public abstract class AbstractFactory {
     public abstract Vehicle createVehicle();

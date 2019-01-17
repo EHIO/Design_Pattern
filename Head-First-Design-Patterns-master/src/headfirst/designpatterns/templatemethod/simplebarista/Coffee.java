@@ -14,7 +14,7 @@ public class Coffee {
 	}
  
 	public void brewCoffeeGrinds() {
-		System.out.println("Dripping Coffee through example2");
+		System.out.println("Dripping Coffee through example");
 	}
  
 	public void pourInCup() {

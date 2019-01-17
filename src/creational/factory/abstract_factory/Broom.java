@@ -1,4 +1,4 @@
-package creational.factory.abstract_factory.example2;
+package creational.factory.abstract_factory;
 
 public class Broom extends Vehicle {
 

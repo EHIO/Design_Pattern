@@ -1,6 +1,8 @@
-package creational.factory.abstract_factory.example2;
+package creational.factory.abstract_factory;
 
-
+/**
+ * 抽象产品
+ */
 public class Car extends Vehicle {
 
 

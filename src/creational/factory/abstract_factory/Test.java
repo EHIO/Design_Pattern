@@ -1,8 +1,7 @@
-package creational.factory.abstract_factory.example2;
+package creational.factory.abstract_factory;
 
 public class Test {
     public static void main(String[] args) {
-        //DefaultFactory f = new DefaultFactory();
         AbstractFactory f = new DefaultFactory();
         Vehicle v = f.createVehicle();
         v.run();
