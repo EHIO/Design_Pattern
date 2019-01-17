@@ -9,5 +9,8 @@ public class FactoryMethodTest {
 
         Creator creator = new ContreteCreatorA();
         creator.factoryMethod();
+
+        creator = new ContreteCreatorB();
+        creator.factoryMethod();
     }
 }
